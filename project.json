@@ -1,0 +1,31 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 0,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 1,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["custom"],
+
+    "jsList" : [
+        "src/config.js",
+        "src/resources.js",
+        "src/GameLayer.js",
+        "src/GameScene.js",
+        "src/LoaderScene.js",
+        "src/Player.js",
+        "src/MenuItem.js",
+        "src/SaiziSprite.js",
+        "src/ScrollNode.js",
+        "src/JieShaoNode.js",
+        "src/StartLayer.js",
+        "src/ShareLayer.js",
+        "src/TipPanel.js",
+        "src/WdWithImgPanel.js",
+        "src/TipWithImgPanel.js",
+        "src/AotemanLayer.js"
+    ]
+}
